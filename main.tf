@@ -4,7 +4,7 @@ resource "azurerm_resource_group" "rg" {
   location = var.location
   tags = {
     "BusinessDescription" = var.business_description
-    "resCreatorAccount"   = var.res_creator_account
+    "resCreatorAccount"   = var.creator_account
     "ReleaseEnv"          = var.release_env
     "ResourceCategory"    = var.resource_category
     "resAppFamily"        = var.res_app_family
